@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cb"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:ems="10"
+        android:hint="Wpisz Login"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:layout_alignStart="@+id/cb"
+        android:layout_marginTop="71dp"
+        android:ems="10"
+        android:hint="Podaj Hasło"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="Zaloguj" />
+
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="zapamiętaj moje dane logowania" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_alignParentTop="true"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="Panel Logowania v1.1" />
+</RelativeLayout>
