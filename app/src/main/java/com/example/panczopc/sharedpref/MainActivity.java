@@ -40,7 +40,11 @@ private CheckBox cbbtn;
     private void checkSP(){
         String checkbox = sPreferences.getString(getString(R.string.checkbox),"False");
         String name = sPreferences.getString(getString(R.string.name),"");
-        String passowrd = sPreferences.getString(getString(R.string.password),"");
+        String password = sPreferences.getString(getString(R.string.password),"");
+
+        this.name.setText(name);
+        this.password.setText(password);
+
     }
 
 
