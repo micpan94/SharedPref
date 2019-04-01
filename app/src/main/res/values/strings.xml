@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">sharedPref</string>
+    <string name="checkbox">com.example.panczopc.sharedpref.checkbox</string>
+    <string name="name">com.example.panczopc.sharedpref.name</string>
+    <string name="password">com.example.panczopc.sharedpref.password</string>
 </resources>

@@ -12,7 +12,7 @@
         android:id="@+id/et1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/cb"
+        android:layout_alignStart="@+id/cbbtn"
         android:layout_alignParentTop="true"
         android:layout_marginTop="63dp"
         android:ems="10"
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/et1"
-        android:layout_alignStart="@+id/cb"
+        android:layout_alignStart="@+id/cbbtn"
         android:layout_marginTop="71dp"
         android:ems="10"
         android:hint="Podaj Hasło"
@@ -40,7 +40,7 @@
         android:text="Zaloguj" />
 
     <CheckBox
-        android:id="@+id/cb"
+        android:id="@+id/cbbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/loginbtn"
